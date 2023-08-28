@@ -1,0 +1,84 @@
+.method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid transparent;
+    /* Khung viền ban đầu */
+    cursor: pointer;
+    transition: transform 0.3s, border-color 0.3s;
+    /* Thời gian chuyển đổi hiệu ứng */
+}
+
+.method:hover {
+    transform: translateY(-5px);
+    /* Khi hover, div nhảy lên 5px */
+}
+
+.method.selected {
+    border-color: #00ff00;
+    /* Khi được chọn, đổi màu khung viền thành xanh (#00ff00) */
+}
+
+.card .selected .card-text::after {
+    content: "\2714";
+    /* Thêm dấu tích vào cuối nội dung */
+    color: #00ff00;
+    /* Màu dấu tích */
+    font-weight: bold;
+    margin-left: 5px;
+    /* Khoảng cách giữa văn bản và dấu tích */
+}
+
+
+/*  css cho thông báo alert booking thành công. */
+
+.alert-container {
+    position: fixed;
+    top: 30;
+    right: 360px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    animation: slide-in 0.5s forwards;
+    z-index: 9999; /* Đặt mức độ ưu tiên cao */
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+.alert-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+}
+
+.alert-content {
+    text-align: center;
+}
+
+.alert-title {
+    margin-top: 4px;
+    margin-bottom: 1px;
+    font-size: 1.2rem;
+}
+
+.alert-description {
+    max-width: 200px;
+    margin: 0 auto;
+}

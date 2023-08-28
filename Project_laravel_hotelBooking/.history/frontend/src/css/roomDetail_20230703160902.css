@@ -1,0 +1,262 @@
+:root {
+    --h-l-f-om-o: 4px;
+    --go-h-jh-l: 8px;
+    --i-g-gvoq: 12px;
+    --g-ki-r-rq: 16px;
+    --j-mdfu-h: 20px;
+    --jx-b-v-zt: 0 8px 28px rgba(0, 0, 0, 0.28);
+    --g-r-n-ycy: 1px solid rgba(0, 0, 0, 0.04);
+    --ih-jiz-p: 0 6px 20px rgba(0, 0, 0, 0.2);
+    --cglwe-y: 1px solid rgba(0, 0, 0, 0.04);
+    --cizosd: 0 6px 16px rgba(0, 0, 0, 0.12);
+    --cb-k-zk-c: 1px solid rgba(0, 0, 0, 0.04);
+    --e-swdx-p: 0 2px 4px rgba(0, 0, 0, 0.18);
+    --g-fi-y-r-e: 1px solid rgba(0, 0, 0, 0.08);
+    --itr-yy-z: cubic-bezier(0.2, 0, 0, 1);
+    --c-wky-h-p: 1px;
+    --hzee-ha: 175px;
+    --gracgr: 26px;
+    --e-usyia: cubic-bezier(0.1, 0.9, 0.2, 1);
+    --hb-n-kc-m: 1px;
+    --ikro-f: 300px;
+    --h-m-d-zo-y: 35px;
+    --f-w-xhiy: cubic-bezier(0.4, 0, 1, 1);
+    ---sof-io: 1px;
+    --cll-sox: 300px;
+    --kf-r-nu-y: 35px;
+    --inwig-v: 1px;
+    --ien-u-go: 250px;
+    --d-kmbxx: 22px;
+    --j-cm-lxz: cubic-bezier(0, 0, 1, 1);
+    --f-ya-ggj: cubic-bezier(1, 0, 0.86, 1);
+    --bd-d-m-c-q: cubic-bezier(0, 0, 0.1, 1);
+    ---bz-mmq: cubic-bezier(0.35, 0, 0.65, 1);
+    --bgxgx: #000000;
+    --f-k-smk-x: #222222;
+    --fo-jk-r-s: #717171;
+    --iw-ihca: #B0B0B0;
+    --j-qkgmf: #DDDDDD;
+    --d-nc-lt-s: #EBEBEB;
+    ---pc-g-v-g: #F7F7F7;
+    --f-mkcy-f: #FFFFFF;
+    --k-va-tnc: #C13515;
+    --cnr-vp-o: #B32505;
+    --f-p-k-v-lb: #FFF8F6;
+    --fhi-qn-u: #E07912;
+    --k-ff-my-a: #008A05;
+    --ldbkp-d: #428BFF;
+    --ihf-tp-q: #FF385C;
+    --cl-yygv: #E00B41;
+    --kd-lqtg: #92174D;
+    --d-u-w-o-m-k: #460479;
+}
+
+body {
+    margin: 0%;
+    box-sizing: 0%;
+    padding: 0%;
+}
+
+/* thiết lập css cho bên show room */
+
+.room-show {
+    color: inherit;
+    text-decoration: none;
+}
+
+.room-show:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* thiết lập css cho bên detail */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    padding: 0px;
+    margin: 0%;
+}
+
+.back-icon {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-slide {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.slide-name-item {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title-relevant-room {
+    font-size: 30px;
+    stroke: seashell;
+}
+
+.name-and-relevant-room {
+    display: flex;
+    justify-content: center;
+}
+
+.frame-slide-relevant-room {
+    margin-top: 3px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+/* slide style */
+.slide {
+    width: 60%;
+    height: 500p;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.swiper-backface-hidden swiper-slide {
+    display: flex;
+    justify-content: center;
+
+}
+
+.slide-item {
+    position: relative;
+
+}
+
+.slide-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.slide-caption h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+
+.relevant-room {
+    width: 25%;
+}
+
+.chil-room-relevant {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-price-typeroom {
+    padding: 10px;
+    margin: 10px;
+    margin: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.services .service-item {
+    flex-wrap: wrap;
+
+}
+
+.price {
+    margin-bottom: 20px;
+    width: 10%;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.typeroom {
+    margin-bottom: 20px;
+
+    width: 20%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* style for form booking */
+.form-booking {
+    width: 30%;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+}
+
+
+/* ------ css cho ngayf dat__________________ */
+.checkinday,
+.checkoutday {
+    min-height: 56px !important;
+    width: 100% !important;
+    border: none !important;
+    outline: #000000 !important;
+    margin: 0px !important;
+    padding: 26px 12px 10px !important;
+    background-color: transparent !important;
+    color: inherit !important;
+    font-family: inherit !important;
+    font-size: 14px !important;
+    font-weight: inherit !important;
+    line-height: 18px !important;
+    appearance: none !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
+
+.nutdat {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+    opacity: 10;
+    cursor: pointer;
+    background-color: #ff5a60;
+    margin: 0;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: lightgrey;
+    --dls19-ui-brand-color: var(--ihf-tp-q);
+}

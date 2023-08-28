@@ -1,0 +1,234 @@
+.containers{
+    border-radius: 10px;
+    width: 600px;
+    height: auto;
+    background: whitesmoke;
+    border: #dddd solid 1px;
+    line-height: 20px;
+    color:#222;
+    transition: none;
+}
+.container{
+
+    width: 600px;
+    height: auto;
+
+
+
+
+
+}
+.tail_name{
+  margin-top: 17px;
+  margin-left: 25px;
+  align-items:baseline;
+  color: #222222;
+  width: 44px;
+  height: 26px;
+  display:flex;
+  flex-wrap:wrap;
+  font-size:18px;
+  justify-content:flex-start;
+  line-height:26px;}
+.form-group{
+    margin: 20px;
+    width: 300px;
+}
+.btn-primary{
+    margin: 25px;
+    width: 300px;
+}
+.tex-name{
+    margin-left: 25px;
+}
+.tex-name2{
+    font-weight: bold;
+}
+
+
+
+ /* confim checkout */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .main {
+    margin-top: 30px;
+    flex-basis: 60%;
+  }
+  
+  .container5 {
+    flex-basis: 35%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .booking-info,
+  .guest-info,
+  .payment-methods,
+  .email,
+  .price-details {
+    margin-bottom: 20px;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn-secondary{
+    background-color: #c0392b;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    height: 45px;
+    margin-top: -5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  
+  
+  .room-details {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .img-room {
+    margin-right: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .rating {
+    margin-left: 10px;
+    
+    align-items: center;
+  }
+  
+  .room_name {
+    margin-top: -45px;
+    font-size: 18px;
+    margin-right: 10px;
+    line-height: 18px;
+  }
+  
+  .rating p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+  
+ 
+  
+  
+  .price-details {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .price-details h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .price-info,
+  .additional-fees,
+  .total {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-bottom: 5px;
+  }
+  
+  .tex-namerom {
+    justify-self: start;
+  }
+  
+  .tex_prect {
+    justify-self: end;
+    font-weight: bold;
+  }
+  
+  .tex-namerom::after {
+    content: ":";
+    margin-right: 5px;
+  }
+  
+  .additional-fees .tex-namerom::after {
+    content: "";
+    margin-right: 0;
+  }
+  
+  .total .tex-namerom {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .total .tex_prect {
+    font-weight: bold;
+    font-size: 16px;
+    color: #c0392b;
+  }
+  
